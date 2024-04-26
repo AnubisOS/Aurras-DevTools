@@ -1,0 +1,36 @@
+[build-system]
+requires      = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where   = ["."]
+
+[project]
+name = "aurras-DevTools"
+version = "0.1.0"
+authors = [
+    { name = "Esraa Youssef", email = "Esraa@gmail.com" },
+    { name = "Mariem Ahmed", email = "Mariem@gmail.com" },
+    { name = "Hussein Mukhtar", email = "Hussein@gmail.com" },
+]
+readme = "README.md"
+description = "A Toolkit to build NLP models."
+requires-python = ">=3.9"
+keywords = ["framwork", "assistant"]
+license = { text = "MIT" }
+classifiers = [
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Natural Language :: English",
+    "Operating System :: Microsoft",
+    "Operating System :: POSIX :: Linux",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+]
+dependencies = ["aurras"]
+
+[project.urls]
+Homepage      = "https://github.com/AnubisOS/Aurras-DevTools"
+Issues      = "https://github.com/AnubisOS/issues"
